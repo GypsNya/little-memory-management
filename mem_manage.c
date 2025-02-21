@@ -1,7 +1,7 @@
 #include "mem_manage.h"
 
 void mem_page_init(void) {
-	for(int i = 0; i < 128; i++) {
+	for(int i = 0; i < PAGE_MAP_SIZE/4; i++) {
 		page_map->PageMap[i] = 0;
 		page_info_map->PageInfoMap[i] = 0;
 	}

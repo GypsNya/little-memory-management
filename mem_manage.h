@@ -44,10 +44,6 @@ typedef struct {
 } PageInfoMapTypeDef;
 
 typedef struct {
-	uint16_t	handle[512];
-} HandleMapTypeDef;
-
-typedef struct {
 	uint16_t	front_page_def_pos;
 	uint16_t	behind_page_def_pos;
 	uint16_t	page_used_num;
